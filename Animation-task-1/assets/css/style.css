@@ -1,0 +1,33 @@
+.big-box {
+    height: 700px;
+}
+
+.images {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    background-color: #96ff0d;
+}
+
+.images:hover {
+    background-color: black;
+}
+
+.images img {
+    height: 100%;
+}
+
+.red-box,
+.green-box {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 10px;
+    left: 10px;
+}
