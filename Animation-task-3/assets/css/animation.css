@@ -1,0 +1,41 @@
+.circle-1 {
+    animation: circle1 .6s infinite alternate .2s;
+}
+
+@keyframes circle1 {
+    0% {
+        transform: scale(0.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.circle-2 {
+    animation: circle2 .6s infinite alternate .3s;
+}
+
+@keyframes circle2 {
+    0% {
+        transform: scale(0.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.circle-3 {
+    animation: circle3 .6s infinite alternate .4s;
+}
+
+@keyframes circle3 {
+    0% {
+        transform: scale(0.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
