@@ -21,3 +21,12 @@
 .row3col2 {
     animation: row3col2 2s 2s forwards;
 }
+
+img {
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+img:hover {
+    border: 1px outset #000;
+}
