@@ -1,0 +1,13 @@
+#ice-age {
+    background-color: #1a9ac9;
+}
+img,.height-box{
+    border: 1px solid #fff;
+}
+.big-box {
+    height: 100vh;
+}
+
+.height-box {
+    padding: 0 15px;
+}

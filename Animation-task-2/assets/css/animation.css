@@ -1,0 +1,23 @@
+.row1-column1 {
+    animation: row1Column1 2s 2s forwards;
+}
+
+.row1column2-row3column3 {
+    animation: row1column2-row3column3 2s 2s forwards;
+}
+
+.row1column3-row2column1 {
+    animation: row1column3-row2column1 2s 2s forwards;
+}
+
+.row2column2 {
+    animation: row2column2 2s 2s forwards;
+}
+
+.row2col3-row3col1 {
+    animation: row2col3-row3col1 2s 2s forwards;
+}
+
+.row3col2 {
+    animation: row3col2 2s 2s forwards;
+}

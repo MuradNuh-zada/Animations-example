@@ -1,0 +1,790 @@
+@media screen and (max-width:576px) {
+    .height-box {
+        width: 260px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: content;
+    }
+
+    @keyframes row1Column1 {
+        0% {
+            transform: translate(30px, 0);
+        }
+
+        25% {
+            transform: translate(40px, 0);
+        }
+
+        50% {
+            transform: translate(60px, 0);
+        }
+
+        75% {
+            transform: translate(86px, 0);
+        }
+
+        100% {
+            transform: translate(86px, 53px);
+        }
+    }
+
+    @keyframes row1column2-row3column3 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(-20px, 0);
+        }
+
+        50% {
+            transform: translate(-40px, 0);
+
+        }
+
+        75% {
+            transform: translate(-60px, 0);
+
+        }
+
+        100% {
+            transform: translate(-86px, 0);
+
+        }
+
+    }
+
+    @keyframes row1column3-row2column1 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(0, 20px);
+        }
+
+        50% {
+            transform: translate(0, 30px);
+        }
+
+        75% {
+            transform: translate(0, 40px);
+        }
+
+        100% {
+            transform: translate(0, 53px);
+        }
+    }
+
+    @keyframes row2column2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, 20px);
+        }
+
+        50% {
+            transform: translate(0, 30px);
+
+        }
+
+        75% {
+            transform: translate(0, 45px);
+
+        }
+
+        100% {
+            transform: translate(86px, 53px);
+
+        }
+
+    }
+
+    @keyframes row2col3-row3col1 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -20px);
+        }
+
+        50% {
+            transform: translate(0, -30px);
+
+        }
+
+        75% {
+            transform: translate(0, -40px);
+
+        }
+
+        100% {
+            transform: translate(0, -53px);
+
+        }
+    }
+
+    @keyframes row3col2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -50px);
+        }
+
+        50% {
+            transform: translate(0, -70px);
+
+        }
+
+        75% {
+            transform: translate(0, -90px);
+
+        }
+
+        100% {
+            transform: translate(0, -106px);
+
+        }
+    }
+}
+
+@media screen and (min-width:576px) {
+    .height-box {
+        width: 300px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: content;
+    }
+
+    @keyframes row1Column1 {
+        0% {
+            transform: translate(30px, 0);
+        }
+
+        25% {
+            transform: translate(50px, 0);
+        }
+
+        50% {
+            transform: translate(70px, 0);
+        }
+
+        75% {
+            transform: translate(99px, 0);
+        }
+
+        100% {
+            transform: translate(99px, 61px);
+        }
+    }
+
+    @keyframes row1column2-row3column3 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(-40px, 0);
+        }
+
+        50% {
+            transform: translate(-50px, 0);
+
+        }
+
+        75% {
+            transform: translate(-70px, 0);
+
+        }
+
+        100% {
+            transform: translate(-99px, 0);
+
+        }
+
+    }
+
+    @keyframes row1column3-row2column1 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(0, 20px);
+        }
+
+        50% {
+            transform: translate(0, 30px);
+        }
+
+        75% {
+            transform: translate(0, 45px);
+        }
+
+        100% {
+            transform: translate(0, 61px);
+        }
+    }
+
+    @keyframes row2column2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, 20px);
+        }
+
+        50% {
+            transform: translate(0, 30px);
+
+        }
+
+        75% {
+            transform: translate(0, 45px);
+
+        }
+
+        100% {
+            transform: translate(99px, 61px);
+
+        }
+
+    }
+
+    @keyframes row2col3-row3col1 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -20px);
+        }
+
+        50% {
+            transform: translate(0, -30px);
+
+        }
+
+        75% {
+            transform: translate(0, -40px);
+
+        }
+
+        100% {
+            transform: translate(0, -61px);
+
+        }
+    }
+
+    @keyframes row3col2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -50px);
+        }
+
+        50% {
+            transform: translate(0, -70px);
+
+        }
+
+        75% {
+            transform: translate(0, -90px);
+
+        }
+
+        100% {
+            transform: translate(0, -123px);
+
+        }
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .height-box {
+        width: 340px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: content;
+    }
+
+    @keyframes row1Column1 {
+        0% {
+            transform: translate(50px, 0);
+        }
+
+        25% {
+            transform: translate(80px, 0);
+        }
+
+        50% {
+            transform: translate(100px, 0);
+        }
+
+        75% {
+            transform: translate(113px, 0);
+        }
+
+        100% {
+            transform: translate(113px, 69px);
+        }
+    }
+
+    @keyframes row1column2-row3column3 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(-70px, 0);
+        }
+
+        50% {
+            transform: translate(-90px, 0);
+
+        }
+
+        75% {
+            transform: translate(-100px, 0);
+
+        }
+
+        100% {
+            transform: translate(-113px, 0);
+
+        }
+
+    }
+
+    @keyframes row1column3-row2column1 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(0, 30px);
+        }
+
+        50% {
+            transform: translate(0, 40px);
+        }
+
+        75% {
+            transform: translate(0, 50px);
+        }
+
+        100% {
+            transform: translate(0, 69px);
+        }
+    }
+
+    @keyframes row2column2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, 30px);
+        }
+
+        50% {
+            transform: translate(0, 40px);
+
+        }
+
+        75% {
+            transform: translate(0, 50px);
+
+        }
+
+        100% {
+            transform: translate(113px, 69px);
+
+        }
+
+    }
+
+    @keyframes row2col3-row3col1 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -30px);
+        }
+
+        50% {
+            transform: translate(0, -40px);
+
+        }
+
+        75% {
+            transform: translate(0, -50px);
+
+        }
+
+        100% {
+            transform: translate(0, -68px);
+
+        }
+    }
+
+    @keyframes row3col2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -60px);
+        }
+
+        50% {
+            transform: translate(0, -90px);
+
+        }
+
+        75% {
+            transform: translate(0, -110px);
+
+        }
+
+        100% {
+            transform: translate(0, -137px);
+
+        }
+    }
+}
+
+@media screen and (min-width:992px) {
+    .height-box {
+        width: 500px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: content;
+    }
+
+    @keyframes row1Column1 {
+        0% {
+            transform: translate(50px, 0);
+        }
+
+        25% {
+            transform: translate(100px, 0);
+        }
+
+        50% {
+            transform: translate(130px, 0);
+        }
+
+        75% {
+            transform: translate(166px, 0);
+        }
+
+        100% {
+            transform: translate(166px, 98px);
+        }
+    }
+
+    @keyframes row1column2-row3column3 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(-100px, 0);
+        }
+
+        50% {
+            transform: translate(-130px, 0);
+
+        }
+
+        75% {
+            transform: translate(-140px, 0);
+
+        }
+
+        100% {
+            transform: translate(-166px, 0);
+
+        }
+
+    }
+
+    @keyframes row1column3-row2column1 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(0, 50px);
+        }
+
+        50% {
+            transform: translate(0, 60px);
+        }
+
+        75% {
+            transform: translate(0, 80px);
+        }
+
+        100% {
+            transform: translate(0, 98px);
+        }
+    }
+
+    @keyframes row2column2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, 50px);
+        }
+
+        50% {
+            transform: translate(0, 70px);
+
+        }
+
+        75% {
+            transform: translate(0, 85px);
+
+        }
+
+        100% {
+            transform: translate(166px, 98px);
+
+        }
+
+    }
+
+    @keyframes row2col3-row3col1 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -50px);
+        }
+
+        50% {
+            transform: translate(0, -70px);
+
+        }
+
+        75% {
+            transform: translate(0, -85px);
+
+        }
+
+        100% {
+            transform: translate(0, -99px);
+
+        }
+    }
+
+    @keyframes row3col2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -100px);
+        }
+
+        50% {
+            transform: translate(0, -150px);
+
+        }
+
+        75% {
+            transform: translate(0, -170px);
+
+        }
+
+        100% {
+            transform: translate(0, -197px);
+
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .height-box {
+        width: 750px;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: content;
+    }
+
+    @keyframes row1Column1 {
+        0% {
+            transform: translate(100px, 0);
+        }
+
+        25% {
+            transform: translate(150px, 0);
+        }
+
+        50% {
+            transform: translate(200px, 0);
+        }
+
+        75% {
+            transform: translate(250px, 0);
+        }
+
+        100% {
+            transform: translate(250px, 146px);
+        }
+    }
+
+    @keyframes row1column2-row3column3 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(-100px, 0);
+        }
+
+        50% {
+            transform: translate(-150px, 0);
+
+        }
+
+        75% {
+            transform: translate(-200px, 0);
+
+        }
+
+        100% {
+            transform: translate(-250px, 0);
+
+        }
+
+    }
+
+    @keyframes row1column3-row2column1 {
+        0% {
+            transform: translate(0, 0);
+        }
+
+        25% {
+            transform: translate(0, 90px);
+        }
+
+        50% {
+            transform: translate(0, 100px);
+        }
+
+        75% {
+            transform: translate(0, 120px);
+        }
+
+        100% {
+            transform: translate(0, 146px);
+        }
+    }
+
+    @keyframes row2column2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, 80px);
+        }
+
+        50% {
+            transform: translate(0, 100px);
+
+        }
+
+        75% {
+            transform: translate(0, 146px);
+
+        }
+
+        100% {
+            transform: translate(250px, 146px);
+
+        }
+
+    }
+
+    @keyframes row2col3-row3col1 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -100px);
+        }
+
+        50% {
+            transform: translate(0, -120px);
+
+        }
+
+        75% {
+            transform: translate(0, -130px);
+
+        }
+
+        100% {
+            transform: translate(0, -144px);
+
+        }
+    }
+
+    @keyframes row3col2 {
+        0% {
+            transform: translate(0, 0)
+        }
+
+        25% {
+            transform: translate(0, -100px);
+        }
+
+        50% {
+            transform: translate(0, -150px);
+
+        }
+
+        75% {
+            transform: translate(0, -200px);
+
+        }
+
+        100% {
+            transform: translate(0, -290px);
+
+        }
+    }
+}
